@@ -4,6 +4,7 @@
 <head>
     <title>Shopping List</title>
 	<link type="text/css" rel="stylesheet" href="liststyle.css"/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src = "addlistitems.js" ></script>
 	
 </head>
@@ -11,10 +12,10 @@
     
     <h2>Shopping List</h2>
 	<br/>
-	<h3>First List</h3>
+	
     <form id="myList">
      
-        <input type="text" name="newentry" ondblclick="addItems()";/>  
+        <input type="text" name="newentry" ondblclick="addItems()"; />  
         
         <br />
 	    <!--Using submit button to submit item does not work; it appears for a second then disappears 
@@ -35,20 +36,23 @@
 	</div>
 	<br/>
 	<br/>
-	<h3>Second List (uses array)</h3>
+	
+	
+	
+<!--	<h3>Second List (uses array)</h3>
 	<form id="secList">
 	    <input type="text" name="secentry" ondblclick="testItems()"; />  
         
         <br />
-	    <!--Using submit button to submit item does not work; it appears for a second then disappears 
-        <button>Add</button>-->
+	    Using submit button to submit item does not work; it appears for a second then disappears 
+        <button>Add</button>
         <br />
     </form>
 	
 	<div id="newdiv">
-	<!--this is where entries form the bottom text box appear-->
+	this is where entries form the bottom text box appear
 	<p>Double click in the text box after you've typed your entry to submit it.</p>
-	</div>
+	</div> -->
 
 
 </body>
