@@ -13,6 +13,13 @@ $('input').keypress(function(e){
     }
 });
 
+$('li').dblclick(function() {
+      
+      $(this).empty();
+	  
+	  
+  });
+
 
 
 });

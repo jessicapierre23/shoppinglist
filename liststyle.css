@@ -9,3 +9,5 @@ input[type=checkbox]:checked + label  {
   text-decoration: line-through;
 }
 
+li {list-style-type:none;}
+
