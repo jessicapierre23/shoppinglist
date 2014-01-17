@@ -1,12 +1,4 @@
 
-
-/*# newdiv input [type="checkbox"]:checked  + p{
-
-display: none;
-text-decoration: line-through;
-
-}*/
-
 input[type=checkbox] + label {
   color: #000;
   font-style: italic;
@@ -16,3 +8,4 @@ input[type=checkbox]:checked + label  {
   font-style: normal;
   text-decoration: line-through;
 }
+

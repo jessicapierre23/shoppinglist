@@ -17,20 +17,17 @@
 	
     <form id="myList">
      
-        <input type="text" name="newentry" ondblclick="addItems()"; />  
+        <input type="text" name="newentry" />  
+                
+	    <input type="submit" />
         
-        <br />
-	    <!--Using submit button to submit item does not work; it appears for a second then disappears 
-        <button>Submit</button>-->
-        <br />
     </form>
-	<p>Double click or press enter in the text box after you've typed your entry to submit it.</p>
+	<p>Press the submit button or press enter in the text box after you've typed your entry to submit it.</p>
 	<ol id="livelist">
 	<!--these are the 2 items that are supposed to be hard-coded-->
 	  <li><input type="checkbox" /><label contenteditable="true">milk</label></li>
-	  <!--I tried to use the contenteditable attribute above to enable users to 
-	  edit entries they've submitted. It lets me add text BEFORE "milk" but won't let me delete the word "milk." Why is that? And is there a better way to enable text editing? -->
-	  <li><input type="checkbox" /><label>eggs</label></li>
+	  
+	  <li><input type="checkbox" checked="checked"/><label>eggs</label></li>
 	</ol>
 	<div id="newlist">
 	<!--this is where entries form the top text box appear-->
