@@ -11,3 +11,8 @@ input[type=checkbox]:checked + label  {
 
 li {list-style-type:none;}
 
+/*.checkedoff {
+  color: #f00;
+  font-style: normal;
+  text-decoration: line-through;
+}*/

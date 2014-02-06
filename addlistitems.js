@@ -13,9 +13,16 @@ $('input').keypress(function(e){
     }
 });
 
+/*$('li').click(function() {
+      
+      $(this).toggleClass('checkedoff');
+	  
+	  
+  });*/
+  
 $('li').dblclick(function() {
       
-      $(this).empty();
+      $(this).fadeOut('fast');
 	  
 	  
   });
@@ -49,8 +56,20 @@ if (/^\s+/.test(input)|| input == "")
    alert("Please enter an item and do not include spaces before the item.");
    /*document.getElementById("livelist").innerHTML += "<p>Please enter an item</p>";*/
 else
-document.getElementById("livelist").innerHTML += "<li><input type='checkbox'/><label>" + input + "</label></li>";
+//document.getElementById("livelist").innerHTML += "<li>" + input + "</li>";
 
+/*document.getElementById("livelist").innerHTML += "<li><input type='checkbox'/><label>" + input + "</label></li>";*/
+
+$('#livelist').append("<li><input type='checkbox'/><label>" + input + "</label></li>");
+
+$("#itembox").val("");
+
+$('li').dblclick(function() {
+      
+      $(this).fadeOut('fast');
+	  
+	  
+  });
 
 } //end addItems function
 

@@ -5,24 +5,25 @@
     <title>Shopping List</title>
 	<link type="text/css" rel="stylesheet" href="liststyle.css"/>
 	<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>-->
     <script type="text/javascript" src = "addlistitems.js" ></script>
 	
 </head>
-<body> <!--onload applies to second list at bottom-->
+<body> 
     
     <h2>Shopping List</h2>
 	<br/>
 	
     <form id="myList">
      
-        <input type="text" name="newentry" />  
+        <input id="itembox" type="text" name="newentry" />  
                 
 	    <input type="submit" />
         
     </form>
-	<p>Press the submit button or press enter in the text box after you've typed your entry to submit it.</p>
+	<p>Press the submit button or press enter in the text box after you've typed your entry to submit it. Double click an item to remove it.</p>
 	<ul id="livelist">
 	<!--these are the 2 items that are supposed to be hard-coded-->
 	  <li><input type="checkbox" /><label contenteditable="true">milk</label></li>
