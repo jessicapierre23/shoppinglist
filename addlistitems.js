@@ -20,12 +20,12 @@ $('input').keypress(function(e){
 	  
   });*/
   
-$('li').dblclick(function() {
+/*$('li').dblclick(function() {
       
       $(this).fadeOut('fast');
 	  
 	  
-  });
+  });*/
 
 
 
